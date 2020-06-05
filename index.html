@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Customer Satisfaction Survey</h1>
+    </header>
+
+    <section class="Survey-box">
+        <p>
+            Thank you fior choosing to take our customer survey. This survey should take less than 5 minutes of your time to complete. Please click the submit button when you are finished.
+        </p>
+        <div class="survey">
+            <label>
+                Name:
+            </label>
+            <input type="text" name="firstname" placeholder="Enter last name"/>
+            <br/>
+
+            <label>
+                Phone Number:
+            </label>
+            <br/>
+            <input type="tel" name="phonenumber" placeholder="Enter your phonenumber"/>
+            <br/>
+            <!-- choose service -->
+            
+            <label class="service-label" for="checkbox">
+                Which service did you receive today? (Please select all that apply)
+            </label>
+            <br/>
+            <input type="checkbox" name="massage" id="massage" />
+            <label for="massage">Massage</label>
+            <br/>
+            <input type="checkbox" name="manicure" id="manicure"/>
+            <label for="manicure">Manicure</label>
+            <br/>
+            <input type="checkbox" name="pedicure" id="pedicure"/>
+            <label for="pedicure">Pedicure</label>
+            <br/>
+
+            <!-- how satisfied were you? -->
+            <label>
+                How Satisfied Were You?
+            </label>
+            <br/>
+            <select name="Satisfaction">
+                <option value="not-satisfied">Not Satisfied</option>
+                <option value="somewhat-satisfied">Somewhat Satisfied</option>
+                <option value="satisfied">Satisfied</option>
+                <option value="very-satisfied">Very Satisfied</option>
+                <option value="extremely-satisfied">Extremely Satisfied</option>
+            </select>
+            <br/>
+            
+            <!-- First time using this service? -->
+            <label>
+                Is this your first time using our services?
+            </label>
+
+            <input type="radio" name="service-confirm" id="service-yes" value="Yes"/>
+            <label for="service-yes">Yes</label>
+            <input type="radio" name="service-confirm" id="service-no" value="No"/>
+            <label for="service-no">No</label>
+            <br/>
+
+            <!-- would you recommend to your friends -->
+            <label>
+                Would you recommend us to a friend?
+            </label>
+            <input type="radio" name="service-recommend" id="recommend-yes" value="Yes"/>
+            <label for="recommend-yes">Yes</label>
+            <input type="radio" name="service-recommend" id="recommend-no" value="No"/>
+            <label for="recommend-no">No</label>
+            <br/>
+            <button type="submit">
+                Submit
+            </button>
+
+
+
+
+            
+        </div>
+        
+        
+    </section>
+
+
+</body>
+</html>
