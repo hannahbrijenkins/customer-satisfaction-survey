@@ -3,6 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="/assets/styles.css">
     <title>Document</title>
 </head>
 <body>
@@ -10,15 +11,16 @@
         <h1>Customer Satisfaction Survey</h1>
     </header>
 
-    <section class="Survey-box">
+    <section class="survey-box">
         <p>
-            Thank you fior choosing to take our customer survey. This survey should take less than 5 minutes of your time to complete. Please click the submit button when you are finished.
+            Thank you for choosing to take our customer survey. This survey should take less than 5 minutes of your time to complete. Please click the submit button when you are finished.
         </p>
         <div class="survey">
             <label>
                 Name:
             </label>
-            <input type="text" name="firstname" placeholder="Enter last name"/>
+            <br>
+            <input type="text" name="firstname" placeholder="Enter name"/>
             <br/>
 
             <label>
@@ -61,7 +63,7 @@
             <label>
                 Is this your first time using our services?
             </label>
-
+            <br>
             <input type="radio" name="service-confirm" id="service-yes" value="Yes"/>
             <label for="service-yes">Yes</label>
             <input type="radio" name="service-confirm" id="service-no" value="No"/>
@@ -72,6 +74,7 @@
             <label>
                 Would you recommend us to a friend?
             </label>
+            <br>
             <input type="radio" name="service-recommend" id="recommend-yes" value="Yes"/>
             <label for="recommend-yes">Yes</label>
             <input type="radio" name="service-recommend" id="recommend-no" value="No"/>
